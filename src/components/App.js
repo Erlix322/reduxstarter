@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import List from '../containers/UserList'
-
+import UserDetail from '../containers/UserDetail'
 class App extends Component {
     render() {
         return (
@@ -9,6 +9,7 @@ class App extends Component {
                 <hr />
                 <h2>Detail</h2>
                 <List />
+                <UserDetail />
             </div>
         );
     }
